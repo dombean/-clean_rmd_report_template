@@ -1,0 +1,64 @@
+---
+title: "Untitled"
+author: "Dominic Bean"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  html_document:
+    code_download: yes
+    code_folding: show
+    df_print: paged
+    highlight: tango
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    # Code Chunks
+    echo = TRUE,
+    eval = TRUE,
+    message = FALSE,
+    warning = FALSE,
+    
+    # Plots
+    out.width = "100%",
+    out.height = "100%",
+    #dpi = 300,
+    fig.align = "center"
+    )
+```
+
+# Libraries
+
+```{r}
+# Core Tools
+library(tidyverse)
+library(feather)
+library(janitor)
+```
+
+# Import Data
+
+```{r}
+
+```
+
+# Exploratory Data Analysis
+
+```{r}
+
+```
+
+# Modelling
+
+```{r}
+
+```
+
