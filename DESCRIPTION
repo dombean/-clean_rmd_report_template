@@ -1,15 +1,14 @@
 Package: cleanRMD
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Contains Two Minimal and Functional RMarkdown Templates
+Version: 0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Dominic",
+           family = "Bean",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "first.last@example.com")
+Description:  Contains Two Minimal and Functional RMarkdown Templates.
+    One for a HTML report, the other for a Blogdown Post.
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
