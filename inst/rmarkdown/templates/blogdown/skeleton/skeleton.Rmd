@@ -3,8 +3,8 @@ title: "Untitled"
 summary: ""
 author: "Dominic Bean"
 date: "2021-01-01"
-categories: [""]
-tags: [""]
+categories:
+tags:
 toc: true
 output:
   html_document:
