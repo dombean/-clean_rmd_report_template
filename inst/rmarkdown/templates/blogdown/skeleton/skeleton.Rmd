@@ -1,0 +1,81 @@
+---
+title: "Untitled"
+summary: ""
+author: "Dominic Bean"
+date: "2021-01-01"
+categories: [""]
+tags: [""]
+toc: true
+output:
+  html_document:
+    code_download: yes
+    code_folding: show
+    df_print: paged
+    highlight: tango
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+  blogdown::html_page:
+    toc: true
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    # Code Chunks
+    echo = TRUE,
+    eval = TRUE,
+    message = FALSE,
+    warning = FALSE,
+    
+    # Plots
+    out.width = "100%",
+    out.height = "100%",
+    #dpi = 300,
+    fig.align = "center"
+    )
+```
+
+```{css, echo=FALSE}
+pre {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 400px;
+}
+```
+
+# Libraries
+
+```{r}
+# Core Tools
+library(tidyverse)
+library(feather)
+library(janitor)
+```
+
+# Import Data
+
+```{r}
+
+```
+
+# Exploratory Data Analysis
+
+```{r}
+
+```
+
+# Modelling
+
+```{r}
+
+```
+
