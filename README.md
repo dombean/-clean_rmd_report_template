@@ -11,4 +11,6 @@ The HTML Blogdown Template is almost exactly the same as the HTML Report Templat
 3) __Open RStudio__.
 3) __Click:__ File --> New File --> R Markdown. The templates should appear under the package name __cleanRMD__.
 
+# Dependencies
 
+install.packages(c("rmarkdown","blogdown"))
