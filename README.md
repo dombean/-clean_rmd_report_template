@@ -1,3 +1,5 @@
+Refer to the file __example_html_report.html__ to see what the HTML Report looks like.
+
 # R Install
 
 1) __Run command in R:__ devtools::install_github("dombean/clean_rmd_report_template")
