@@ -5,7 +5,7 @@ The __HTML Report__ is Blue Themed; it comes by default with code folding, code 
 
 The __HTML Blogdown__ Template is almost exactly the same as the __HTML Report__ Template. However, an option is added to the YAML for blogdown rendering. Also, there is a fixed table of contents and CSS for scrollable code chunks.
 
-The __HTML Presentation__ is Blue Themed; it comes with a macro for easy image scaling.
+The __HTML Presentation__ is Blue Themed; it comes with a [macro for easy image scaling](https://bookdown.org/yihui/rmarkdown/some-tips.html#macros).
 
 # R Install
 
