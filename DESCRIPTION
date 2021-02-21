@@ -1,13 +1,13 @@
 Package: cleanRMD
-Title: Contains Two Minimal and Functional RMarkdown Templates
+Title: Contains Three Minimal and Functional RMarkdown Templates
 Version: 0.1
 Authors@R: 
     person(given = "Dominic",
            family = "Bean",
            role = c("aut", "cre"),
            email = "first.last@example.com")
-Description:  Contains Two Minimal and Functional RMarkdown Templates.
-    One for a HTML report, the other for a Blogdown Post.
+Description:  Contains Three Minimal and Functional RMarkdown Templates.
+    One for a HTML report, One for a HTML Presentation, and the other for a Blogdown Post.
 License: use_mit_license()
 Encoding: UTF-8
 LazyData: true

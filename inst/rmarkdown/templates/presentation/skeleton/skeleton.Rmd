@@ -1,0 +1,49 @@
+---
+title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit."
+author: "Dominic Bean"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    css: [default, metropolis, metropolis-fonts]
+    nature:
+      beforeInit: "addons/macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Agenda
+
+- In non orci efficitur, hendrerit purus at, ultricies nulla.
+- Etiam feugiat ex sit amet erat hendrerit, sit amet aliquam dui tempus.
+- Mauris non dolor ullamcorper sapien malesuada rhoncus.
+- Integer id tortor consequat, eleifend ex ut, tristique augue.
+- Vestibulum in sem eu purus congue bibendum at quis arcu.
+- Curabitur rutrum lorem ac libero ornare, aliquam condimentum risus imperdiet.
+
+.pull-right[![:scale 100%](./images/checklist.jpg)]
+
+---
+
+# Aim and Objectives
+
+**Aim:** 
+
+Nam eget diam sit amet nisl suscipit sodales. Proin a ante non ex vehicula fringilla. Mauris mollis elit in risus lobortis, et semper ligula porttitor. Vestibulum egestas luctus vestibulum. Integer auctor nec urna et placerat. Nulla et elit vel enim vehicula feugiat. Aenean in pharetra lorem. Suspendisse eleifend, risus ac congue pulvinar, lorem augue porttitor ex, quis ornare odio lorem nec orci.
+
+**Objectives:**
+
+Suspendisse pulvinar, nulla blandit aliquam blandit, magna nunc dapibus nulla, et pharetra velit metus eu quam. Vestibulum efficitur sapien odio, in mattis ex placerat eu. Ut purus nulla, eleifend vel nisl in, venenatis cursus massa. Mauris dictum vel velit at elementum.
+
+.center[![:scale 20%](./images/bullseye.jpg)]
+
+---
+
+class: inverse, center, middle
+
+# QUESTIONS
