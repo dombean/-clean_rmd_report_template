@@ -1,7 +1,7 @@
 ---
 title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit."
 author: "Dominic Bean"
-date: '`r format(Sys.time(), "%d %B, %Y")`'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   xaringan::moon_reader:
     self_contained: true

@@ -1,7 +1,7 @@
 ---
 title: "Untitled"
 author: "Dominic Bean"
-date: '`r format(Sys.time(), "%d %B, %Y")`'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
     code_download: yes
@@ -11,12 +11,12 @@ output:
     number_sections: yes
     theme: flatly
     toc: yes
-    toc_depth: 2
+    toc_depth: 4
     toc_float:
       collapsed: false
   pdf_document:
     toc: yes
-    toc_depth: '2'
+    toc_depth: "4"
 ---
 
 ```{r setup, include=FALSE}
@@ -40,8 +40,6 @@ knitr::opts_chunk$set(
 ```{r}
 # Core Tools
 library(tidyverse)
-library(feather)
-library(janitor)
 ```
 
 # Import Data

@@ -2,7 +2,7 @@
 title: "Untitled"
 summary: ""
 author: "Dominic Bean"
-date: "2021-01-01"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 categories:
 tags:
 toc: true
@@ -15,14 +15,14 @@ output:
     number_sections: yes
     theme: flatly
     toc: yes
-    toc_depth: 2
+    toc_depth: 4
     toc_float:
       collapsed: false
   blogdown::html_page:
     toc: true
   pdf_document:
     toc: yes
-    toc_depth: '2'
+    toc_depth: "4"
 ---
 
 ```{r setup, include=FALSE}
@@ -57,8 +57,6 @@ pre[class] {
 ```{r}
 # Core Tools
 library(tidyverse)
-library(feather)
-library(janitor)
 ```
 
 # Import Data
